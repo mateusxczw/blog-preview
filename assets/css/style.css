@@ -37,7 +37,7 @@ body {
   background-color: var(--white);
   display: grid;
   gap: 5px;
-  border-radius: 10px;
+  border-radius: 20px;
   border: 1px solid var(--black);
   box-shadow: 8px 8px var(--black);
 }
