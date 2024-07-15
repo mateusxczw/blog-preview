@@ -19,7 +19,7 @@ p {
 img {
   display: block;
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 body {
@@ -37,7 +37,6 @@ body {
   background-color: var(--white);
   display: grid;
   gap: 5px;
-  justify-items: center;
   border-radius: 10px;
   border: 1px solid var(--black);
   box-shadow: 8px 8px var(--black);
@@ -81,16 +80,21 @@ h1:hover {
 }
 
 .container-perfil {
-  width: 100%;
-  margin-top: 24px;
+  padding-top: 12px;
+
   display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
   gap: 12px;
-  grid-template-columns: auto 1fr;
 }
 
 .container-perfil span {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--black);
   font-weight: 900;
+}
+
+.container-perfil img {
+  width: 32px;
+  height: 32px;
 }
